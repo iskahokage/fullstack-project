@@ -1,0 +1,42 @@
+.header{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba($color: #3B334F, $alpha: 0.6);
+    border-radius: 20px 20px 0 0;
+    .contacts{
+        width: 700px;
+        ul{
+            display: flex;
+            list-style:none;
+            justify-content: space-around;
+            color: #fff;
+            padding: 10px 0;
+        }
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        vertical-align: center;
+        .firmTitle{
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 32px;
+        }
+        .navlinks{
+            display:flex;
+            text-transform: uppercase;
+            justify-content: space-around;
+            list-style: none;
+            width: 700px;
+            font-weight: 400;
+            font-size: 20px;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}

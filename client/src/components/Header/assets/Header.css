@@ -1,0 +1,42 @@
+.header {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(59, 51, 79, 0.6);
+  border-radius: 20px 20px 0 0;
+}
+.header .contacts {
+  width: 700px;
+}
+.header .contacts ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: #fff;
+  padding: 10px 0;
+}
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  vertical-align: center;
+}
+.header .navbar .firmTitle {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+}
+.header .navbar .navlinks {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-around;
+  list-style: none;
+  width: 700px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.header .navbar .navlinks a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+.homeWrapper {
+  background-image: url("../../../assets/img/mainBackground.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  padding: 83px;
+}
+.homeWrapper .mainBlock {
+  height: 200px;
+  max-width: 1200px;
+  background-color: rgba(59, 51, 79, 0.6);
+}/*# sourceMappingURL=Home.css.map */

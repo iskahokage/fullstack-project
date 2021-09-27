@@ -1,0 +1,12 @@
+@import '../../../variables/variables.scss';
+.homeWrapper{
+    background-image: url('../../../assets/img/mainBackground.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 83px;
+    .mainBlock{
+        height: 200px;
+        max-width: 1200px;
+        background-color: $violetbg;
+    }
+}
