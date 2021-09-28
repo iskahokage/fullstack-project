@@ -6,10 +6,13 @@ const cors = require('cors');
 const routes = require('./routes/index.js')
 const errorMiddleware = require('./middlewares/errorMiddleware.js')
 
+const {adminBro, adminRouter} = require('./admin.js')
 const app = express();
 app.use(cors());
 
 app.use(express.json())
+
+app.use(adminBro.options.rootPath, adminRouter)
 app.use('/api/v1', routes)
 app.use(errorMiddleware)
 

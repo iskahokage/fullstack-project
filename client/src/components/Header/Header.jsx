@@ -10,6 +10,7 @@ const Header = () => {
           <li>(500) 500-774</li>
           <li>iskndrsmt@gmail.com</li>
         </ul>
+        <NavLink to="#">Sign In</NavLink>
       </div>
       <hr />
       <div className='navbar'>

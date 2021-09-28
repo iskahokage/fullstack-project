@@ -1,12 +1,128 @@
-@import '../../../variables/variables.scss';
-.homeWrapper{
-    background-image: url('../../../assets/img/mainBackground.jpg');
-    background-size: cover;
-    min-height: 100vh;
+@import "../../../variables/variables.scss";
+.bgc {
+  background-image: url("../../../assets/img/mainBackground.jpg");
+  background-size: cover;
+  .homeWrapper {
+    background-color: rgba($color: #f9ebc9, $alpha: 0.7);
     padding: 83px;
-    .mainBlock{
-        height: 200px;
-        max-width: 1200px;
-        background-color: $violetbg;
+    min-height: auto;
+    .welcomeBlock {
+      border-radius: 20px 20px 0 0;
+      height: 600px;
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: rgba($color: #3e2d50, $alpha: 1.0);
+      background-image: url("../../../assets/img/femida.png");
+      background-size: 850px;
+      background-repeat: no-repeat;
+      background-position: 490px -160px;
+      position: relative;
+      .overlay {
+        border-radius: 20px 20px 0 0;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #3e2d50, $alpha: 0.5);
+        .welcomeText{
+            font-family: $notoSerif;
+            font-weight: 700;
+            width: 400px;
+            font-size: 36px;
+            color: #fff;
+            margin-top: 50px;
+            margin-left: 60px;
+        }
+        .welcomeText2{
+            font-size: 16px;
+            font-family: $notoSerif;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-left: 60px;
+            color: #fff;
+            margin-bottom: 230px;
+        }
+        .tipBlock{
+            max-width: 1101px;
+            margin: 0 auto;
+            background-color: #fff;
+            max-height: 226px;
+            height: 100%;
+            display: flex;
+            .tip{
+                max-width: 367px;
+                width: 100%;
+                max-height: 226px;
+                height: 100%;
+                .tipImg{
+                    margin-top: 15px;
+                    margin-left: 15px;
+                }
+                .MaterialTipImg{
+                    background-image: url('../../../assets/img/courthouse.svg');
+                    background-size: contain;
+                    width: 56px;
+                    height: 56px;
+                }
+                .ProceduralTipImg{
+                    background-image: url('../../../assets/img/constitution.svg');
+                    background-size: contain;
+                    width: 56px;
+                    height: 56px;
+
+                }
+                .CompositeTipImg{
+                    background-image: url('../../../assets/img/balance.svg');
+                    background-size: contain;
+                    width: 50px;
+                    height: 50px;
+
+                }
+                .tipDescription{
+
+                    margin-top: 10px;
+                    font-size: 17px;
+                    font-weight: 400;
+                    font-family: $notoSerif;
+                    margin-left: 15px;
+                    p{
+                        margin-top: 10px;
+                    }
+                }
+                .tipTitle{
+                    margin-top: 10px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-family: $notoSerif;
+                    margin-left: 15px;
+                }
+            }
+            .whiteTip{
+                background-color: #f7f7f7;
+            } 
+            .yellowTip{
+                background-color: #a18f61;
+            }
+        }
+      }
     }
+    .mainBlock{
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #fff;
+        height: 500px;
+        padding-top: 200px;
+        .mainBlockWrapper{
+            display: flex;
+            justify-content: space-around;
+            div{
+                .mainBlockTip1{
+                font-size: 30px;
+                font-family: $notoSans;
+                }
+            }
+        }
+    }
+  }
 }
