@@ -111,10 +111,28 @@
   max-width: 1200px;
   margin: 0 auto;
   background-color: #fff;
-  height: 500px;
+  height: 350px;
   padding-top: 200px;
 }
 .bgc .homeWrapper .mainBlock .mainBlockWrapper {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.bgc .homeWrapper .mainBlock .mainBlockWrapper div > .mainBlockTip1 {
+  font-size: 26px;
+  font-family: "Noto Serif", serif;
+}
+.bgc .homeWrapper .mainBlock .mainBlockWrapper div > .mainBlockTip2 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Noto Serif", serif;
+  color: #a0a0a0;
+}
+.bgc .homeWrapper .mainBlock .mainBlockWrapper .mainBlockButton {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px;
+  background-color: #a18f61;
 }/*# sourceMappingURL=Home.css.map */

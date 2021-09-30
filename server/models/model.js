@@ -36,7 +36,9 @@ const Rating= sequelize.define("rating", {
 
 const Posts = sequelize.define("posts", {
     id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
-    theme: {type: DataTypes.STRING},
+    name: {type: DataTypes.STRING},
+    email: {type: DataTypes.STRING},
+    phone: {type: DataTypes.INTEGER},
     content: {type: DataTypes.TEXT},
 })
 
@@ -53,5 +55,6 @@ module.exports = {
     User,
     Profile,
     Favorite,
-    Rating
+    Rating,
+    Posts
 }

@@ -111,16 +111,28 @@
         max-width: 1200px;
         margin: 0 auto;
         background-color: #fff;
-        height: 500px;
+        height: 350px;
         padding-top: 200px;
         .mainBlockWrapper{
             display: flex;
             justify-content: space-around;
-            div{
-                .mainBlockTip1{
-                font-size: 30px;
-                font-family: $notoSans;
-                }
+            align-items: center;
+            div>.mainBlockTip1{
+                font-size: 26px;
+                font-family: $notoSerif;
+            }
+            div>.mainBlockTip2{
+                margin-top: 10px;
+                font-size: 14px;
+                font-family: $notoSerif;
+                color: #a0a0a0;
+            }
+            .mainBlockButton{
+                font-size: 18px;
+                text-transform: uppercase;
+                font-weight: 700;
+                padding: 15px;
+                background-color: #a18f61;
             }
         }
     }

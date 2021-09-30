@@ -10,16 +10,15 @@ const Header = () => {
           <li>(500) 500-774</li>
           <li>iskndrsmt@gmail.com</li>
         </ul>
-        <NavLink to="#">Sign In</NavLink>
+        <NavLink to="/login">Sign In</NavLink>
       </div>
       <hr />
       <div className='navbar'>
         <p className='firmTitle'>garant</p>
         <div className='navlinks'>
-          <li><NavLink to='#'>home</NavLink></li>
-          <li><NavLink to="#">about us</NavLink></li>
-          <li><NavLink to="#">services</NavLink></li>
-          <li><NavLink to="#">free consultation</NavLink></li>
+          <li><NavLink to='/'>home</NavLink></li>
+          <li><NavLink to="/lawyers">lawyers</NavLink></li>
+          <li><a href="#consultation">free consultation</a></li>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import AddPost from "../Posts/AddPost";
 
 const Home = () => {
   return (
@@ -49,11 +50,13 @@ const Home = () => {
                   <p className='mainBlockTip1'>Reliable & effective legal solutions</p>
                   <p className='mainBlockTip2'>Get immediate free information and advice from experienced attorneys</p>
                 </div>
-                <p>
+                <p className='mainBlockButton'>
                   view all services
                 </p>
               </div>
           </div>
+          <AddPost/>
+          <a name='consultation'></a>
       </div>
     </div>
   );

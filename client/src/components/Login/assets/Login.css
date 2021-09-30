@@ -1,0 +1,52 @@
+.login {
+  height: 100vh;
+}
+.login .inputContainer {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 20px 20px 20px 20px;
+  height: auto;
+  padding: 30px 0;
+}
+.login .inputContainer .inputs {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.login .inputContainer .inputs .textField {
+  margin: 10px 0 0 0;
+  border-radius: 10px;
+}
+.login .inputContainer .inputs .sendButton {
+  max-width: 460px;
+  width: 100%;
+  margin: 10px auto 0 auto;
+  background-color: #a18f61;
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.login .inputContainer .tipBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login .inputContainer .tipBlock .tip {
+  font-size: 14px;
+  text-align: right;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.login .inputContainer .tipBlock .tip > a {
+  color: #a18f61;
+  text-decoration: none;
+  font-weight: 600;
+}
+.login .inputContainer .tipBlock .tip > a:hover {
+  color: #000;
+}/*# sourceMappingURL=Login.css.map */

@@ -75,6 +75,15 @@ class UserService {
   static getAll = async () => {
     return await User.findAll({ attributes: ["email", "role", "id"] });
   };
+
+  static getOne = async (id) =>{
+    return await User.findOne({where:{id}})
+  }
+
+  static delete = async (id)=>{
+    return await User.destroy({where: {id}})
+  }
+
   static activate = async(link)=>{
     const user = await User.findOne({where: {activationLink: link}})
     if(!user){

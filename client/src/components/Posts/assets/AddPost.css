@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+.postContainer {
+  max-width: 1200px;
+  height: auto;
+  background-color: #f7f7f7;
+  margin: 0 auto;
+}
+.postContainer .featuresContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.postContainer .featuresContainer .featuresBlock {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.postContainer .featuresContainer .featuresBlock .featureNumber {
+  font-family: "Noto Serif", serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: gray;
+}
+.postContainer .featuresContainer .featuresBlock .featureTitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 450;
+  font-family: "Noto Serif", serif;
+}
+.postContainer .featuresContainer .featuresBlock .featureDescription {
+  text-align: center;
+  font-size: 16px;
+  font-family: "Noto Serif", serif;
+  line-height: 30px;
+  color: gray;
+}
+.postContainer .textBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 40px auto 0 auto;
+  max-width: 1200px;
+  height: auto;
+  padding-bottom: 20px;
+}
+.postContainer .textBlock .textContainer {
+  max-width: 570px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.postContainer .textBlock .textContainer .textField {
+  margin: 0 5px;
+}
+.postContainer .textBlock .textField {
+  max-width: 460px;
+  width: 100%;
+  margin: 10px auto 0 auto;
+}
+.postContainer .textBlock .sendButton {
+  max-width: 460px;
+  width: 100%;
+  margin: 10px auto 0 auto;
+  background-color: #a18f61;
+  outline: none;
+  border: none;
+  padding: 15px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.postContainer .textBlock .sendButton:active {
+  background-color: #665a3c;
+  font-weight: bold;
+}
+
+.PostPageTitle {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.postCard {
+  background-color: #a18f61;
+  max-width: 600px;
+  margin: 10px auto 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+}/*# sourceMappingURL=AddPost.css.map */
